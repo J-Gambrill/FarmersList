@@ -1,4 +1,4 @@
-const { Cart } = require("./classes/Cart");
+const { Cart } = require("./Cart");
 
 class Customer {
     constructor(name, email, shippingAddress, orderHistory){

@@ -19,7 +19,7 @@ class Auth {
             console.log(`Welcome back, ${customer.name}!`);
             return customer;            
             } else {
-                throw new Error('Customer not found');
+                return null;
         }
     }
 
